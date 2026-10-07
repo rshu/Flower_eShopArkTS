@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "鲜花商城模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "鲜花商城"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "鲜花商城"
+    }
+  ]
+}

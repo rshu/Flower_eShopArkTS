@@ -1,0 +1,38 @@
+# DevEco Studio / hvigor build outputs
+/build/
+/**/build/
+/.hvigor/
+/**/.hvigor/
+/.cxx/
+/**/.cxx/
+/.preview/
+/**/.preview/
+
+# Resolved OHPM packages (regenerated from oh-package-lock.json5)
+/oh_modules/
+/**/oh_modules/
+
+# Local SDK / signing config — machine-specific
+local.properties
+
+# IDE
+/.idea/
+*.iml
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Signing material — never commit keys/certs/profiles
+**/*.p12
+**/*.cer
+**/*.p7b
+**/*.csr
+**/*.jks
+**/*.keystore
+
+# Agent / tooling scaffolding
+/.agent_history/
+/coding_memory/
+/todo/
+/prompt_attachment/

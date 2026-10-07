@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Flower eShop module"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Flower eShop"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Flower eShop"
+    }
+  ]
+}
