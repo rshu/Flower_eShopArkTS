@@ -11,6 +11,22 @@
     {
       "name": "EntryAbility_label",
       "value": "Flower eShop"
+    },
+    {
+      "name": "reason_microphone",
+      "value": "Used to search for flowers by voice"
+    },
+    {
+      "name": "reason_location",
+      "value": "Used to find nearby flower stores"
+    },
+    {
+      "name": "reason_calendar",
+      "value": "Used to add flower delivery events to your calendar"
+    },
+    {
+      "name": "reason_bluetooth",
+      "value": "Used to connect to your smart flower vase"
     }
   ]
 }

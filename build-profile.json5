@@ -1,9 +1,24 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/rshu/.ohos/config/default_Flower_eShopArkTS_NGPLJ46SFTaCBR5KLf6cwqY0N3msWOrSwOXn0K8kEO8=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BC64DE4101E6D20F808D7299836BDB7722A93747D434AA94F5E6CADCA8F1FEADE4FAED59E578F06",
+          "profile": "/Users/rshu/.ohos/config/default_Flower_eShopArkTS_NGPLJ46SFTaCBR5KLf6cwqY0N3msWOrSwOXn0K8kEO8=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/rshu/.ohos/config/default_Flower_eShopArkTS_NGPLJ46SFTaCBR5KLf6cwqY0N3msWOrSwOXn0K8kEO8=.p12",
+          "storePassword": "0000001BF3BEEB99600910AB58B3BDDD0E459948EFCC781697B7BBD1FCA34EEA305744D40997F16E134FEE"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
+        "signingConfig": "default",
         "compatibleSdkVersion": "5.0.0(12)",
         "targetSdkVersion": "6.0.2(22)",
         "runtimeOS": "HarmonyOS"
