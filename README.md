@@ -108,12 +108,12 @@ Output:
 
 ## Signing
 
-Signing material is machine-specific and not committed. The `build-profile.json5`
-references the auto-generated debug keystore under `~/.ohos/config/` with
-encrypted store/key passwords (decrypted at build time by hvigor from the
-`~/.ohos/config/material` directory).
+Signing material is machine-specific and not committed. `build-profile.json5`
+ships with an empty `signingConfigs` array; the auto-generated debug keystore
+under `~/.ohos/config/` (with encrypted store/key passwords) exists only on the
+development machine.
 
-To re-enable signing on a new machine, use DevEco Studio:
+To enable signing on a new machine, use DevEco Studio:
 **File > Project Structure > Signing Configs** → auto-sign for bundle
 `com.huawei.flowereshop` and register your device UDID, then rebuild.
 
