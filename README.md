@@ -97,7 +97,7 @@ the HarmonyOS command-line tools `hvigorw`.
 export JAVA_HOME=/Applications/DevEco-Studio.app/Contents/jbr/Contents/Home
 export PATH="$JAVA_HOME/bin:$PATH"
 
-/Users/rshu/Documents/command-line-tools/bin/hvigorw assembleHap \
+~/Documents/command-line-tools/bin/hvigorw assembleHap \
   --mode module -p product=default -p buildMode=debug --no-daemon
 ```
 
@@ -120,7 +120,7 @@ To re-enable signing on a new machine, use DevEco Studio:
 ## Run on device
 
 ```bash
-HDC=/Users/rshu/Documents/command-line-tools/sdk/default/openharmony/toolchains/hdc
+HDC=~/Documents/command-line-tools/sdk/default/openharmony/toolchains/hdc
 $HDC install entry/build/default/outputs/default/entry-default-signed.hap
 $HDC shell aa start -a EntryAbility -b com.huawei.flowereshop
 ```
@@ -165,7 +165,7 @@ $HDC shell aa start -a EntryAbility -b com.huawei.flowereshop
 ### Device
 
 - Huawei Pura 80 Pro (`LMR-AL00`), HarmonyOS 7.0.0.109 (API 26)
-- hdc target `4PZ0225627014325`, UDID `B9732DF03B87D3F52E0877D241435228C256F7E47AAFD2DFFD8070E9A8D36632`
+- hdc target / UDID: `[redacted]`
 
 ## Incomplete / unverified
 
