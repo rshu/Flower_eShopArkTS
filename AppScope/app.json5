@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.huawei.flowereshop",
+    "bundleName": "com.huawei.flowereshop.icode",
     "vendor": "example",
     "versionCode": 1000000,
     "versionName": "1.0.0",
