@@ -6,11 +6,27 @@
     },
     {
       "name": "EntryAbility_desc",
-      "value": "鲜花商城"
+      "value": "花店基线-jiuwenswarm"
     },
     {
       "name": "EntryAbility_label",
-      "value": "鲜花商城"
+      "value": "花店基线-jiuwenswarm"
+    },
+    {
+      "name": "reason_microphone",
+      "value": "用于语音搜索鲜花"
+    },
+    {
+      "name": "reason_location",
+      "value": "用于查找附近鲜花门店"
+    },
+    {
+      "name": "reason_calendar",
+      "value": "用于将鲜花配送事件添加到日历"
+    },
+    {
+      "name": "reason_bluetooth",
+      "value": "用于连接智能花瓶"
     }
   ]
 }
